@@ -38,37 +38,37 @@ class Plugin
 		return array(
 			'inn' => array(
 				'label'       => __( 'INN', WCBE ),
-				'description' => 'Customer INN (Russian Federation)',
+				'description' => __( 'Customer INN (Russian Federation)', WCBE ),
 				'show' => false,
 				'class' => 'form-row-left',
 			),
 			'kpp' => array(
 				'label'       => __( 'KPP', WCBE ),
-				'description' => 'Customer KPP (Russian Federation)',
+				'description' => __( 'Customer KPP (Russian Federation)', WCBE ),
 				'show' => false,
 				'class' => 'form-row-right',
 			),			
 			'ogrn' => array(
 				'label'       => __( 'OGRN', WCBE ),
-				'description' => 'Customer OGRN (Russian Federation)',
+				'description' => __( 'Customer OGRN (Russian Federation)', WCBE ),
 				'show' => false,
 				'class' => 'form-row-left',
 			),
 			'account' => array(
 				'label'       => __( 'Bank Account', WCBE ),
-				'description' => 'Customer Bank Account',
+				'description' => __( 'Customer Bank Account', WCBE ),
 				'show' => false,
 				'class' => 'form-row-right',
 			),
 			'bank' => array(
 				'label'       => __( 'Bank', WCBE ),
-				'description' => 'Customer Bank',
+				'description' => __( 'Customer Bank', WCBE ),
 				'show' => false,
 				'class' => 'form-row-left',
 			),				
 			'bic' => array(
 				'label'       => __( 'Bank ID Code', WCBE ),
-				'description' => 'Customer Bank BIC or SWIFT',
+				'description' => __( 'Customer Bank BIC or SWIFT', WCBE ),
 				'show' => false,
 				'class' => 'form-row-right',
 			),			

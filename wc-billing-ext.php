@@ -27,7 +27,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 function wcbe_init()
 {
     // Internationalizing Plugin
-	load_plugin_textdomain( WCBE, false, WCBE_FOLDER . '/lang' );
+	load_plugin_textdomain( WCBE, false, basename( dirname( __FILE__ ) ) . '/lang' );
 	
 	// Plugin files
 	require( WCBE_FOLDER . '/classes/plugin.php' );
