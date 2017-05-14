@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: WooCoommerce Billing Extention\n"
-"POT-Creation-Date: 2017-05-14 08:23+0300\n"
-"PO-Revision-Date: 2017-05-14 08:21+0300\n"
+"POT-Creation-Date: 2017-05-14 09:03+0300\n"
+"PO-Revision-Date: 2017-05-14 09:03+0300\n"
 "Last-Translator: Ivan Nikitin <ivan@nikitin.biz>\n"
 "Language-Team: Ivan Nikitin <ivan@nikitin.biz>\n"
 "MIME-Version: 1.0\n"
@@ -25,24 +25,48 @@ msgstr ""
 msgid "INN"
 msgstr ""
 
+#: classes/plugin.php:41
+msgid "Customer INN (Russian Federation)"
+msgstr ""
+
 #: classes/plugin.php:46
 msgid "KPP"
+msgstr ""
+
+#: classes/plugin.php:47
+msgid "Customer KPP (Russian Federation)"
 msgstr ""
 
 #: classes/plugin.php:52
 msgid "OGRN"
 msgstr ""
 
+#: classes/plugin.php:53
+msgid "Customer OGRN (Russian Federation)"
+msgstr ""
+
 #: classes/plugin.php:58
 msgid "Bank Account"
+msgstr ""
+
+#: classes/plugin.php:59
+msgid "Customer Bank Account"
 msgstr ""
 
 #: classes/plugin.php:64
 msgid "Bank"
 msgstr ""
 
+#: classes/plugin.php:65
+msgid "Customer Bank"
+msgstr ""
+
 #: classes/plugin.php:70
 msgid "Bank ID Code"
+msgstr ""
+
+#: classes/plugin.php:71
+msgid "Customer Bank BIC or SWIFT"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
